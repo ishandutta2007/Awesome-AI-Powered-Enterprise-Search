@@ -1,5 +1,3 @@
-# Awesome-AI-Powered-Enterprise-Search
-
 # Awesome-AI-Powered-Enterprise-Search 🔍 🧠
 
 <p align="center">
@@ -19,20 +17,21 @@
 
 ## 🌟 Top AI-Powered Enterprise Search Ecosystem
 
-**Curated List of Commercial Enterprise Search Platforms & Open-Source Semantic Retrieval Systems**  
-*Focused on Hybrid Search, RAG Chat with Citations, Faceted Navigation, AI Agents, Connectors & Self-Hosted Enterprise Search*
+**Curated Directory of Enterprise Search Platforms, RAG Engines, Open-Source Vector Retrieval & Knowledge Discovery Infrastructure**  
+*Focused on Hybrid Search, RAG Chat with Citations, Faceted Navigation, AI Agents, Enterprise Connectors & Self-Hosted Enterprise Search*
 
 **Last updated: October 2026** 📅
 
 ---
 
 ### 📌 Overview & SEO Summary
-Welcome to the ultimate curated directory of **AI-powered enterprise search platforms**, **open-source semantic retrieval systems**, and **RAG-powered knowledge discovery tools**. Whether you are looking for enterprise-grade commercial solutions (such as *Glean*, *Coveo*, and *Sinequa*), or self-hostable open-source alternatives (like *Onyx*, *Turing*, and *Meilisearch*), this list covers category leaders, hybrid search, and privacy-respecting enterprise knowledge infrastructure.
+Welcome to the definitive curated ecosystem directory of **AI-powered enterprise search platforms**, **open-source semantic retrieval systems**, **vector databases**, and **RAG-powered knowledge discovery tools**. Whether your team needs enterprise-grade commercial platforms (such as *Glean*, *Coveo*, and *Sinequa*), or self-hostable open-source alternatives (like *Open WebUI*, *Elasticsearch*, *Meilisearch*, *RAGFlow*, *Onyx*, and *Turing*), this list covers category leaders, hybrid search engines, permissions-aware indexing, and privacy-first enterprise knowledge infrastructure.
 
 **Key Market Context:**
-- **Turing (Viglet)** is the **most complete open-source enterprise search platform**, providing **faceted semantic search, hybrid BM25+vector ranking, RAG chat with citations, AI agents, and MCP tools** on Apache Solr, Elasticsearch, or embedded Lucene — **Apache-2.0 licensed with no per-query, per-record, or per-seat metering** [citation:1].
-- **Onyx** is the **leading open-source AI platform for enterprise**, with **agentic RAG, deep research, web search, and 50+ connectors**, and it **supports all major LLM providers including self-hosted (Ollama, LiteLLM, vLLM) and proprietary (OpenAI, Anthropic, Gemini)** [citation:2].
-- **Meilisearch** is the **fastest-growing open-source search engine**, with **hybrid search, conversational search, and sub-50ms latency**, and **works out of the box with LangChain and MCP** [citation:7][citation:16].
+- **Turing (Viglet)** is the **most complete open-source enterprise search platform**, providing **faceted semantic search, hybrid BM25+vector ranking, RAG chat with citations, AI agents, and MCP tools** on Apache Solr, Elasticsearch, or embedded Lucene — **Apache-2.0 licensed with no per-query, per-record, or per-seat metering**.
+- **Onyx** is the **leading open-source AI platform for enterprise search**, featuring **agentic RAG, deep research, web search, and 50+ enterprise connectors**, supporting all major self-hosted (Ollama, LiteLLM, vLLM) and proprietary LLM providers.
+- **Meilisearch** delivers **sub-50ms hybrid search** with out-of-the-box conversational search and Model Context Protocol (MCP) support.
+- **Open WebUI** is the **#1 self-hosted interface for document & web RAG**, connecting seamlessly to 45+ enterprise knowledge bases.
 
 ---
 
@@ -71,40 +70,61 @@ The AI-powered enterprise search market spans **AI-native search platforms** (Gl
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub_Stars_Count (Descending)* 🌟
+*Sorted by GitHub Stars Count (Descending)* 🌟
 
-- **[Onyx](https://github.com/onyx-dot-app/onyx-foss)** [![Stars](https://img.shields.io/github/stars/onyx-dot-app/onyx-foss?style=social&color=white)](https://github.com/onyx-dot-app/onyx-foss/stargazers)  
-  **The leading open-source AI platform for enterprise search**, MIT licensed. **The application layer for LLMs** — **agentic RAG, deep research, custom agents, web search, code execution, and 50+ connectors** [citation:2]. **Supports all major LLM providers** including self-hosted (Ollama, LiteLLM, vLLM) and proprietary (OpenAI, Anthropic, Gemini). **Enterprise features**: SSO via Google OAuth, OIDC, or SAML; group syncing and user provisioning via SCIM; RBAC for sensitive resources; analytics; query history; and custom code execution [citation:2]. **The most complete open-source enterprise AI search platform**. 🔍
+- **[Open WebUI](https://github.com/open-webui/open-webui)** [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) 🔒  
+  **Extensible, self-hosted interface for AI & document search**, MIT licensed. **Document RAG, web RAG, tools, functions, and filters**. **Model management, prompt library, persistent chat history**. **Supports Ollama, OpenAI-compatible APIs, and 45+ knowledge base sources via oikb**. 
 
-- **[Turing (Viglet)](https://github.com/openviglet/turing-ce)** [![Stars](https://img.shields.io/github/stars/openviglet/turing-ce?style=social&color=white)](https://github.com/openviglet/turing-ce/stargazers)  
-  **Open-source enterprise search + generative AI platform**, Apache-2.0 licensed. **Faceted semantic search, hybrid BM25+vector ranking, RAG chat with citations, AI agents and MCP tools** — on Apache Solr, Elasticsearch, or embedded Lucene [citation:1]. **Indexes Adobe AEM, WordPress, databases and files via Viglet Dumont connectors**. **Self-hosted alternative to Algolia and Coveo** with **no per-query, per-record or per-seat metering**. **Supports regulated/air-gapped deploys**. **The most feature-complete open-source enterprise search alternative**. 🎯
+- **[Elasticsearch](https://github.com/elastic/elasticsearch)** [![Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers) 🔍  
+  **Distributed search and analytics engine**, Elastic License 2.0 / SSPL. **The most widely deployed open-source search engine**. **Full-text search, vector search, ELSER, and hybrid retrieval**. **Kibana for visualization**. **The foundation of Elastic Enterprise Search**.
 
-- **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers)  
-  **Lightning-fast search engine**, MIT licensed. **Hybrid search combining semantic and full-text** for the most relevant results [citation:7][citation:16]. **Search-as-you-type in less than 50 milliseconds**. **Typo tolerance, filtering, faceted search, sorting, synonyms, geosearch, and extensive language support**. **Security management with API keys and multi-tenancy**. **Conversational search** lets users ask questions in natural language and get AI-generated answers grounded in search results [citation:16]. **Works out of the box with LangChain and MCP**. **The most developer-friendly open-source search engine**. ⚡
+- **[Apache Superset](https://github.com/apache/superset)** [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers) 📊  
+  **Modern data exploration and visualization platform**, Apache-2.0 licensed. **Rich set of data visualizations, no-code chart builder, and SQL search editor** with support for most SQL databases. **Comprehensive REST API** for enterprise dashboards and search data analytics.
 
-- **[Qdrant](https://github.com/qdrant/qdrant)** [![Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers)  
-  **High-performance vector database and search engine**, Apache-2.0 licensed. **Written in Rust for speed and reliability under high load** [citation:6]. **Tailored for extended filtering support** — useful for semantic matching, faceted search, and recommendations. **Hybrid search with sparse vectors** for keyword-aware retrieval [citation:15]. **Vector quantization reduces RAM usage by up to 97%**. **Distributed deployment with sharding and replication**. **The most performant open-source vector database**. 🦀
+- **[Meilisearch](https://github.com/meilisearch/meilisearch)** [![Stars](https://img.shields.io/github/stars/meilisearch/meilisearch?style=social&color=white)](https://github.com/meilisearch/meilisearch/stargazers) ⚡  
+  **Lightning-fast open-source search engine**, MIT licensed. **Hybrid search combining semantic vectors and full-text** for maximum relevance. **Search-as-you-type in under 50 milliseconds**. **Typo tolerance, filtering, faceted search, and conversational search**. **Native LangChain and MCP support**.
 
-- **[Weaviate](https://github.com/weaviate/weaviate)** [![Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers)  
-  **Open-source vector database**, BSD-3-Clause licensed. **Built for mission-critical applications** with native support for **horizontal scaling, multi-tenancy, replication, and fine-grained RBAC** [citation:5]. **Vector compression and multi-vector encoding reduce memory usage**. **Object TTL for automatic data expiration**. **Comprehensive demo projects** including **Elysia (agentic system), Verba (RAG app), and Healthsearch**. **The most production-ready open-source vector database**. 🧠
+- **[RAGFlow](https://github.com/infiniflow/ragflow)** [![Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) 📄  
+  **Open-source RAG engine based on deep document understanding**, Apache-2.0 licensed. **Template-based chunking and grounded citations**. **Built-in connectors for Jira, S3-compatible storage, databases, and enterprise file formats**.
 
-- **[Elasticsearch](https://github.com/elastic/elasticsearch)** [![Stars](https://img.shields.io/github/stars/elastic/elasticsearch?style=social&color=white)](https://github.com/elastic/elasticsearch/stargazers)  
-  **Distributed search and analytics engine**, Elastic License 2.0 / SSPL. **70K+ GitHub stars** — **the most widely deployed open-source search engine**. **Full-text search, vector search, and hybrid retrieval**. **Kibana for visualization**. **The foundation of Elastic Enterprise Search and thousands of applications**. 🔍
+- **[AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)** [![Stars](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm?style=social&color=white)](https://github.com/Mintplex-Labs/anything-llm/stargazers) 🤖  
+  **All-in-one desktop & enterprise AI workspace**, MIT licensed. **Turn any document, web link, or database into a searchable knowledge base**. **Multi-user management, fine-grained workspace permissions, and agentic RAG search**.
 
-- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)  
-  **Community-driven search and analytics suite**, Apache-2.0 licensed. **Fully open-source under the Linux Foundation** — **provides lexical search, log analytics, and a vector database for semantic search and generative AI workloads** [citation:8]. **OpenSearch Dashboards for visualization and monitoring**. **Data Prepper for ingestion and processing**. **The most permissively licensed enterprise search engine**. 🏛️
+- **[Milvus](https://github.com/milvus-io/milvus)** [![Stars](https://img.shields.io/github/stars/milvus-io/milvus?style=social&color=white)](https://github.com/milvus-io/milvus/stargazers) 🌌  
+  **Cloud-native open-source vector database**, Apache-2.0 licensed. **Built for massive enterprise scale**, managing billions of high-dimensional vector embeddings with sub-second retrieval latency and hardware acceleration.
 
-- **[RAGFlow](https://github.com/infiniflow/ragflow)** [![Stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers)  
-  **Open-source RAG engine based on deep document understanding**, Apache-2.0 licensed. **40K+ GitHub stars** — **template-based chunking and grounded citations**. **Built-in connectors for Jira, S3-compatible storage, and more** [citation:4]. **The most accurate open-source RAG engine**. 📄
+- **[Qdrant](https://github.com/qdrant/qdrant)** [![Stars](https://img.shields.io/github/stars/qdrant/qdrant?style=social&color=white)](https://github.com/qdrant/qdrant/stargazers) 🦀  
+  **High-performance vector database and search engine**, Apache-2.0 licensed. **Written in Rust for speed and low RAM footprint**. **Extended filtering support** for semantic matching, faceted search, and hybrid sparse/dense retrieval.
 
-- **[Open WebUI](https://github.com/open-webui/open-webui)** [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers)  
-  **Extensible, self-hosted interface for AI that adapts to your workflow**, MIT licensed. **124K+ GitHub stars** — **document RAG, web RAG, tools, functions, and filters** [citation:3]. **Model management, prompt library, persistent chat history**. **Supports Ollama, OpenAI-compatible APIs, and 45+ knowledge base sources via oikb** [citation:12]. 🔒
+- **[Typesense](https://github.com/typesense/typesense)** [![Stars](https://img.shields.io/github/stars/typesense/typesense?style=social&color=white)](https://github.com/typesense/typesense/stargazers) 🎯  
+  **Fast, typo-tolerant open-source search engine**, GPL-3.0 licensed. **Built in C++ for maximum CPU utilization**. **Native vector search, hybrid search, multi-tenant security, and instant autocomplete**.
 
-- **[Apache Superset](https://github.com/apache/superset)** [![Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)  
-  **Modern data exploration and visualization platform**, Apache-2.0 licensed. **Rich set of data visualizations, no-code chart builder, and SQL editor** with support for most SQL-speaking databases [citation:10]. **Comprehensive REST API** for programmatic access to dashboards, charts, datasets, and databases. **The default open-source answer for Tableau-class dashboarding and data search**. 📊
+- **[SearXNG](https://github.com/searxng/searxng)** [![Stars](https://img.shields.io/github/stars/searxng/searxng?style=social&color=white)](https://github.com/searxng/searxng/stargazers) 🕵️  
+  **Privacy-respecting open-source metasearch engine**, AGPL-3.0 licensed. **Aggregates results from 70+ search engines** without tracking user data. Ideal web retrieval layer for enterprise RAG pipelines.
 
-- **[Enterprise DocSearch RAG](https://github.com/maitraria15-dot/enterprise-docsearch-rag)** [![Stars](https://img.shields.io/github/stars/maitraria15-dot/enterprise-docsearch-rag?style=social&color=white)](https://github.com/maitraria15-dot/enterprise-docsearch-rag/stargazers)  
-  **Autonomous enterprise document search and QA agent**, open-source. **Built with LangGraph, Gemini 2.5 Flash, and FAISS Vector Search**. **The most accessible open-source enterprise document search agent**. 🤖
+- **[Onyx](https://github.com/onyx-dot-app/onyx-foss)** [![Stars](https://img.shields.io/github/stars/onyx-dot-app/onyx-foss?style=social&color=white)](https://github.com/onyx-dot-app/onyx-foss/stargazers) 🔍  
+  **Leading open-source AI platform for enterprise search**, MIT licensed. **Agentic RAG, deep research, custom agents, web search, code execution, and 50+ enterprise connectors**. **SSO via Google/OIDC/SAML, SCIM provisioning, and RBAC**.
+
+- **[Perplexica](https://github.com/ItzCrazyKaty/Perplexica)** [![Stars](https://img.shields.io/github/stars/ItzCrazyKaty/Perplexica?style=social&color=white)](https://github.com/ItzCrazyKaty/Perplexica/stargazers) 🌐  
+  **Open-source AI answer engine alternative to Perplexity**, MIT licensed. **Searches web and internal sources with grounded citations**, powered by local LLMs (Ollama) or cloud providers.
+
+- **[Chroma](https://github.com/chroma-core/chroma)** [![Stars](https://img.shields.io/github/stars/chroma-core/chroma?style=social&color=white)](https://github.com/chroma-core/chroma/stargazers) 🎨  
+  **Open-source AI-native embedding database**, Apache-2.0 licensed. **Lightweight developer-first vector storage for semantic retrieval, document filtering, and RAG search applications**.
+
+- **[Weaviate](https://github.com/weaviate/weaviate)** [![Stars](https://img.shields.io/github/stars/weaviate/weaviate?style=social&color=white)](https://github.com/weaviate/weaviate/stargazers) 🧠  
+  **Production-ready open-source vector database**, BSD-3-Clause licensed. **Native horizontal scaling, multi-tenancy, and RBAC**. **Vector compression, hybrid search, and built-in generative RAG modules**.
+
+- **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers) 🏛️  
+  **Community-driven search & analytics suite**, Apache-2.0 licensed under the Linux Foundation. **Provides lexical search, log analytics, vector database engine, and Data Prepper ingestion pipelines**.
+
+- **[Vespa](https://github.com/vespa-engine/vespa)** [![Stars](https://img.shields.io/github/stars/vespa-engine/vespa?style=social&color=white)](https://github.com/vespa-engine/vespa/stargazers) 🚀  
+  **Open-source big data serving engine**, Apache-2.0 licensed. **Yahoo's engine for real-time vector search, lexical search, and ML model evaluation** over billions of documents with millisecond latency.
+
+- **[Turing (Viglet)](https://github.com/openviglet/turing-ce)** [![Stars](https://img.shields.io/github/stars/openviglet/turing-ce?style=social&color=white)](https://github.com/openviglet/turing-ce/stargazers) 🎯  
+  **Open-source enterprise search + generative AI platform**, Apache-2.0 licensed. **Faceted semantic search, hybrid BM25+vector ranking, RAG chat with citations, AI agents, and MCP tools** on Solr or Elasticsearch with zero query/seat metering.
+
+- **[Enterprise DocSearch RAG](https://github.com/maitraria15-dot/enterprise-docsearch-rag)** [![Stars](https://img.shields.io/github/stars/maitraria15-dot/enterprise-docsearch-rag?style=social&color=white)](https://github.com/maitraria15-dot/enterprise-docsearch-rag/stargazers) 🤖  
+  **Autonomous enterprise document search and QA agent**, Apache-2.0 licensed. **Built with LangGraph, Gemini 2.5 Flash, and FAISS Vector Search** for multi-document enterprise retrieval.
 
 ---
 
@@ -114,23 +134,23 @@ Contributions are welcome! Follow these steps to submit new enterprise search pl
 
 1. 🍴 **Fork** the repository.
 2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure and formatting.
-3. 🔗 Include project title, official website/GitHub link, exact Stars_Count, license, and brief description.
+3. 🔗 Include project title, official website/GitHub link, exact Stars_Count badge, license, and brief description.
 4. 🚀 Submit a **Pull Request** with a descriptive summary of your changes.
 
 ---
 
 ## 📊 Star History
 
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-AI-Powered-Enterprise-Search&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Powered-Enterprise-Search&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-AI-Powered-Enterprise-Search&type=Date)](https://star-history.com/#ishandutta2007/Awesome-AI-Powered-Enterprise-Search&Date)
 
 ---
 
 ## 🤝 Support & Sponsorship
 
-If you find this AI-powered enterprise search repository useful, please consider supporting the project:
+If you find this AI-powered enterprise search directory useful, please consider supporting the project:
 
-- ⭐ **Star** this repository to increase visibility!
-- 🔀 **Fork** and share with fellow search engineers, knowledge managers, and open-source advocates.
+- ⭐ **Star** this repository on GitHub to increase visibility!
+- 🍴 **Fork** and share with fellow search engineers, knowledge managers, and AI developers.
 - ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
@@ -138,8 +158,8 @@ If you find this AI-powered enterprise search repository useful, please consider
 ## ⚠️ Disclaimer
 
 - This is a **community-curated** list — not exhaustive and not an endorsement. ℹ️
-- **Turing (Viglet) provides the most complete open-source enterprise search alternative to Algolia and Coveo** — **Apache-2.0 licensed with no per-query, per-record or per-seat metering** [citation:1]. **Onyx is the leading open-source AI platform for enterprise** with **agentic RAG, deep research, and 50+ connectors** [citation:2]. **Meilisearch offers the fastest search-as-you-type experience** with **sub-50ms latency** [citation:7].
-- **Open-source enterprise search tools are not turnkey** — **Onyx requires Docker and LLM provider configuration** . **Turing requires Java 21+ and Maven** . **Qdrant and Weaviate require vector database deployment and indexing pipeline setup** . **Always validate search relevance, latency, and security with a proof-of-concept** before production deployment. 🔍
+- **Turing (Viglet) provides the most complete open-source enterprise search alternative to Algolia and Coveo** — **Apache-2.0 licensed with no per-query, per-record or per-seat metering**. **Onyx is the leading open-source AI platform for enterprise** with **agentic RAG, deep research, and 50+ connectors**. **Meilisearch offers the fastest search-as-you-type experience** with **sub-50ms latency**.
+- **Open-source enterprise search tools are not turnkey** — **Onyx requires Docker and LLM provider configuration**. **Turing requires Java 21+ and Maven**. **Qdrant and Weaviate require vector database deployment and indexing pipeline setup**. **Always validate search relevance, latency, and security with a proof-of-concept** before production deployment. 🔍
 
 ---
 
