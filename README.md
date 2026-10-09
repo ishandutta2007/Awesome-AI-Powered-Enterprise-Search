@@ -70,7 +70,7 @@ The AI-powered enterprise search market spans **AI-native search platforms** (Gl
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Stars Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[Open WebUI](https://github.com/open-webui/open-webui)** [![Stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social&color=white)](https://github.com/open-webui/open-webui/stargazers) 🔒  
   **Extensible, self-hosted interface for AI & document search**, MIT licensed. **Document RAG, web RAG, tools, functions, and filters**. **Model management, prompt library, persistent chat history**. **Supports Ollama, OpenAI-compatible APIs, and 45+ knowledge base sources via oikb**. 
